@@ -1,0 +1,173 @@
+body{
+    background-color: hsl(234, 29%, 20%);
+    justify-content: center;
+    font-family: Roboto;
+}
+.parent
+{
+    color:hsl(234, 30%, 26%);
+    margin: 7%;
+    display: flex;
+    padding: 2rem;
+    gap:1rem;
+    border-radius: 20px;
+    background-color: white;
+    width:80%;
+}
+.textContent > h1
+{
+    font-size: 3rem;
+}
+.textContent > p
+{
+    font-size: 1.5rem;
+    margin: 0%;
+}
+ul{
+    padding:0%;
+}
+ul li
+{
+    list-style-type:none ;
+    font-size: 1.5rem;
+}
+label
+{
+    display:block;
+}
+#mail
+{
+    padding-left: 1%;
+    height:3rem;
+    font-size: larger;
+    width:70%;
+    border: 1px solid;
+    border-radius: 10px;
+    display: block;
+}
+#submitbtn
+{
+    height:3rem;
+    width:71%;
+    border-radius: 10px;
+    background-color: hsl(234, 30%, 26%);
+    color:white;
+    font-weight: 600;
+    cursor: pointer;
+    border: 0px;
+    font-size:80%;
+    margin-top: .7rem;
+    display:block;
+    box-shadow: 1px 1px 4px 4px hsla(234, 30%, 26%, 0.46);
+}
+#submitbtn:active
+{
+    background-color: hsla(234, 30%, 26%, 0.607);
+}
+.thanks
+{
+    background-color:white;
+    width:30%;
+    color:hsl(234, 30%, 26%);
+    margin: auto;
+    padding: 2%;
+    border-radius: 20px;
+}
+#thanksbtn
+{
+    width:100%;
+    height: 3rem;
+    border-radius: 10px;
+    border:0px;
+    cursor: pointer;
+    background: hsl(234, 30%, 26%);
+    color:white;
+    font-size: larger;
+    box-shadow: 1px 1px 4px 4px hsla(234, 30%, 26%, 0.46);
+    font-weight: 700;
+}
+#thanksbtn:active{
+    background-color: hsla(234, 30%, 26%, 0.607);
+}
+@media(max-width:930px)
+{
+    .parent
+    {
+        padding:2%;
+        margin: 0;
+        border-radius: 0%;
+        width:100%;
+    }
+    #submitbtn 
+    {
+        width:100%;
+    }
+    #mail
+    {
+        width:100%;
+    }
+}
+@media(min-width:750px)
+{
+    #mobileimg
+    {
+        display: none;
+    }
+}
+@media(max-width:750px)
+{
+    body{
+        margin:0;
+        padding:0;
+    }
+    .parent{
+        width:100%;
+        padding: 0%;
+        margin: 0;
+        display:flex;
+        flex-direction: column-reverse;
+    }
+    .textContent
+    {
+        margin-top: 5rem;
+        width:100%;
+        padding:2%;
+    }
+    #desktopimg
+    {
+        display: none;
+    }
+    #mobileimg
+    {
+        width:100%;
+    }
+    .imgContent
+    {
+        width:100%;
+    }
+    #mail
+    {
+        width:90%;
+    }
+    #submitbtn
+    {
+        width:91%;
+    }
+    
+}
+span
+{
+    color:black;
+}
+@media(max-width:650px)
+{   
+.thanks
+{
+    width:100%;
+    height: max-content;
+}
+body {
+    margin:0;
+    padding:0;
+}
+}
